@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 const withDB = async (operations , res) => {
     try{
         const client = await MongoClient.connect(
-            'mongodb+srv://PorusDwinner:newTomongodb@cluster0.q23poih.mongodb.net/?retryWrites=true&w=majority',
+            'mongodb+srv://Username:Password@cluster0.q23poih.mongodb.net/?retryWrites=true&w=majority',
             { useNewUrlParser : true , useUnifiedTopology : true }
         )
     
